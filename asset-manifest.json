@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95c89bd8.chunk.css",
+    "main.js": "/static/js/main.310bd446.chunk.js",
+    "main.js.map": "/static/js/main.310bd446.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0cc7ce3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0cc7ce3.js.map",
+    "static/js/2.632cd496.chunk.js": "/static/js/2.632cd496.chunk.js",
+    "static/js/2.632cd496.chunk.js.map": "/static/js/2.632cd496.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1117f874f35e242a44599f0269f6ef3c.js": "/precache-manifest.1117f874f35e242a44599f0269f6ef3c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.95c89bd8.chunk.css.map": "/static/css/main.95c89bd8.chunk.css.map",
+    "static/js/2.632cd496.chunk.js.LICENSE.txt": "/static/js/2.632cd496.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/inputbar.5ac05903.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0cc7ce3.js",
+    "static/js/2.632cd496.chunk.js",
+    "static/css/main.95c89bd8.chunk.css",
+    "static/js/main.310bd446.chunk.js"
+  ]
+}
