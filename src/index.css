@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/bg4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#time{
+  
+  padding-right:1%
+}
+
+.list {
+  display:flex;
+  flex-direction:column;
+  
+  justify-content:space-bwtween;
+  padding: 15px 55px;
+  background-image: url('../src/inputbar.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+
+.list-items{
+  color:white;
+  margin:0%  10%;
+  text-align:center;
+  font-size:20px;
+  background-image: url('../src/inputbar.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.inputbar {
+  background-image: url('../src/inputbar.jpg');
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  font-size:23.5px;
+  padding-top:10px;
+  width:50%;
+  margin:10px 0 ;
+  box-shadow: inset 0px 10px 15px rgb(17, 18, 19);
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+}
+
+.inputbar::placeholder{
+ color: #fcfcfc
+}
+
+.inputbar:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{  
+  .inputbar{
+    width:100%
+  }
+}
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  
+}
+
